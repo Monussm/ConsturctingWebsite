@@ -1,0 +1,188 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+.backgroundimage{
+
+background-image: url(../Image/header-bg.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 616px;
+
+}
+.colorfulworld{
+
+margin-top: 210px;
+
+}
+.discovernow{
+
+background-color:#fab700;
+
+width: 180px;
+/* height: 50px; */
+padding: 7px;
+border-radius: 15px;
+}
+.discovernow:hover{
+
+background-color: transparent;
+border: 3px solid white;
+
+}
+.firstpic{
+
+background-image: url(../Image/p1.jpg);
+ height: 535px;
+ background-position: center;
+cursor: pointer;
+background-size: auto;
+}
+.secondpic{
+
+background-image: url(../Image/p2.jpg);
+ height: 535px;
+ background-position: center;
+cursor: pointer;
+background-size: auto;
+}
+.thirdpic{
+
+background-image: url(../Image/p3.jpg);
+ height: 535px;
+ background-position: center;
+cursor: pointer;
+background-size: auto;
+}
+.fourpic{
+
+background-image: url(../Image/p4.jpg);
+height: 535px;
+background-position: center;
+cursor: pointer;
+background-size: auto;
+}
+.experttechnicians{
+
+background-color: #f9f9ff;
+
+
+}
+.experttechnicians:hover{
+
+background-color: #fab700;
+box-shadow: -7px 9px 5px 2px rgb(123 123 123);
+}
+.textarea
+{
+
+outline: none;
+
+
+}
+input{
+
+outline: none;
+
+
+}
+.discover{
+
+
+    background-color:#fab700;
+
+    width: 180px;
+    /* height: 50px; */
+    padding: 7px;
+    border-radius: 15px;
+
+
+}
+.features{
+
+background-color: #f9f9ff;
+
+
+
+}
+.features:hover{
+
+background-color: #fab700;
+
+
+}
+.secondbackgroundimage{
+
+background-image: url(../Image/cover_img_3.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 616px;
+
+
+}
+.ourproject{
+
+
+margin-top: 248px;
+font-size: 8rem;
+
+
+}
+.theylive{
+
+background-color: #f9f9ff;
+height: 500px;
+
+
+}
+.right{
+
+background-color: white;
+
+
+}
+.seeproject{
+
+margin-top: 100px;
+
+
+}
+
+@media  screen and (max-width: 764px){
+
+
+    .navbar-toggler{
+
+       background-color: white;
+
+
+    }
+    .textarea{
+
+
+        margin-top: 10px;
+    }
+    .seeproject{
+
+
+    margin-top: 64px;
+
+    }
+    .theylive{
+
+    height: 1100px;
+
+
+    }
+
+
+
+}
